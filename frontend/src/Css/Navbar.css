@@ -1,0 +1,27 @@
+.time, .battery, .Voltage, .mode, .arm{
+    display:flex;
+}
+
+.timer, .batterypercent, .voltagevalue{
+    padding-top:7%;
+    margin-left: 5%;
+}
+
+.mode{
+    padding-top:1%;
+}
+
+.time{
+    margin-right: 8%;
+}
+
+.battery{
+    margin-left:7%;
+}
+
+.Voltage{
+    margin-left:7%;
+}
+.mode{
+    margin-left:7%;
+}

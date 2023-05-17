@@ -1,0 +1,33 @@
+.submitbtn, .cancelbtn{
+    width: 46.5%;
+    height: 6vh;
+    background-color: "#BB86FC";
+    margin-top:4% !important;
+    border-radius: 90px !important;
+    font-size: 14px !important;
+    font-weight:500 !important;
+    background-color:#BB86FC !important;
+    padding: 1% 0 1% 0;
+    color:#121212 !important;
+}
+
+
+.sidebarbtn{
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-form{
+    width: 8.5vw;
+    height:5vh;
+}
+.btn-form-emergent{
+    right: 6vh;
+    width: 8.5vw;
+    height:5vh;
+}
+.formstandard{
+  margin-left: 20vw;
+  margin-top: 25vh;
+}

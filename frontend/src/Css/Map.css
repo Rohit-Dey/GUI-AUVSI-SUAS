@@ -1,0 +1,81 @@
+.map_Container {
+    margin-left: 20vw;
+    /* margin-top:6.9vh; */
+    margin-bottom:0;
+    padding: 0;
+    min-height: 88vh;
+    max-width: 79.5vw;
+    width: 100%;
+    height: 100%;
+    /* z-index: 1200; */
+}
+
+.map{
+    margin-bottom:0;
+    max-height: 100vh;
+    min-width: 100vw;
+    min-height: 88vh;
+    width:100%;
+    height:100%;
+    background-color: #121212
+}
+
+.sidebar_Map {
+    background-color: rgba(35, 55, 75, 0.9);
+    color: #fff;
+    padding: 6px 12px;
+    /* margin-left: 21vw; */
+    /* margin-top:10vh; */
+    font-family: monospace;
+    z-index: 1202;
+    position: absolute;
+    top: 13vh;
+    left: 22vw;
+    border-radius: 4px;
+    
+}
+
+.Export_btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.1rem .2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 2vh;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(17, 13, 13);
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: .3rem;
+  }
+  
+  .Export_btn {
+    border-color: #fff;
+    transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  }
+  
+  .Export_btn:hover {
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+    cursor: pointer;
+  }
+/* .refresh_btn{
+    line-height: 12px;
+    width: 18px;
+    font-size: 8pt;
+    font-family: tahoma;
+    margin-top: 1px;
+    margin-right: 2px;
+}
+
+.calculation-box {
+    height: 75px;
+    width: 150px;
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    text-align: center;
+} */
